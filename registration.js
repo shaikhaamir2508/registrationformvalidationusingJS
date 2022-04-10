@@ -72,11 +72,22 @@ submit.addEventListener('click', function (a) {
         let lastName = document.getElementById("lastName").value;
         let email = document.getElementById("email").value;
         let number = document.getElementById("number").value;
+        let date = document.getElementById("date").value;
+        let gender = document.getElementById("gender").value;
+        let image = document.getElementById("image").value;
+        let address = document.getElementById("address").value;
+        let branch = document.getElementById("branch").value;
+
       
         localStorage.setItem("firstName",firstName);
         localStorage.setItem("lastName",lastName);
         localStorage.setItem("email",email);
         localStorage.setItem("number",number);
+        localStorage.setItem("date",date);
+        localStorage.setItem("gender",gender);
+        localStorage.setItem("image",image);
+        localStorage.setItem("address",address);
+        localStorage.setItem("branch",branch);
 
 
     }
